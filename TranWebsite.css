@@ -1,0 +1,77 @@
+h1 {
+    font-family: 'Playfair Display', serif;
+    color:#daa520;
+    font-size:80;
+    margin: 0;
+    padding:0;
+    line-height: 1;
+  }
+
+h2{
+  font-family:'Playfair Display', serif;
+  color:#daa520;
+  font size:50px;
+}
+
+footer {
+        padding-bottom:20px;
+        background: #868686;
+        color:#daa520;
+      }
+
+.fa {
+    padding: 2px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+      }
+.fa-instagram {
+        background:#868686;
+        color: #daa520;
+      }
+
+/* Style the navigation menu */
+.navbar {
+width: 100%;
+font-family: 'Dancing Script', cursive;
+color:#daa520;
+background-color: #868686;
+overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+float: left;
+padding: 12px;
+padding-left:20px;
+padding-right: 1px;
+color: white;
+text-decoration: none;
+font-size: 17px;
+width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+text-align: center; /* If you want the text to be centered */
+text-align: center;
+list-style: none;
+display:block;
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+background-color: #000;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+.navbar a {
+float: none;
+display: block;
+width: 100%;
+text-align: left; /* If you want the text to be left-aligned on small screens */
+}
+}
+
+
+/*Code for slid show*/
+.mySlides {display:none;}
